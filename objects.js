@@ -3,9 +3,9 @@ function updatePlaylist(playlistObj, artist, title) {
   playlistObj[artist] = title;
   return playlistObj;
 }
-function removeFromPlaylist(playlist, artistName) {
-  delete playlist.artistName;
-  return playlist;
+function removeFromPlaylist(playlistObj, artist) {
+  delete playlistObj.artist;
+  return playlistObj;
 }
 console.log(playlist);
 console.log(updatePlaylist(playlist, "Edward Khuil", "Trololo"))
