@@ -13,4 +13,3 @@ console.log(removeFromPlaylist(playlist, "Jeremy"))
 
 console.log()
 console.log(removeFromPlaylist({ Kanye: "Gold Digger" }, "Kanye"))
-delete playlist.Jeremy
